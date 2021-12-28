@@ -26,10 +26,12 @@ h3 { font-size: 40px; font-weight: bold; padding-left: 60px; padding-bottom: 30p
 
 .float .articleImage {float: left;}
 
-.articleImage { height: 600px;  -o-object-fit: cover; object-fit: cover; display: inline-block; }
+.articleImage { height: 400px;  width: 400px; -o-object-fit: cover; object-fit: cover; display: inline-block; }
 
 .container { height: 100%; width: 1800px; display: inline-block; }
 
-.float {float: left; margin-left: 60px;}
+.float {float: left; margin-left: 60px; display: inline-block;}
+.flex { display: inline-block;}
 
-.flex {display: -webkit-box; display: -ms-flexbox; display: flex; }
+a:focus {color: green;}
+a:hover {color: blue;}
